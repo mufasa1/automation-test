@@ -15,12 +15,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestClientIDs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="62" column="89" selection-start-line="62" selection-start-column="89" selection-end-line="62" selection-end-column="89" />
+            <state relative-caret-position="391">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/response/ResponseOptions.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/InstallCert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/TestClientIDs.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InstallCert.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestClientIDs.java" />
       </list>
     </option>
@@ -110,6 +133,24 @@
               <item name="java automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="java automation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,12 +161,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552915062324" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552922011252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +180,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClientIDs">
+  <component name="RunManager" selected="TestNG.TestClientIDs.PropertySettingGet">
+    <configuration name="InstallCert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InstallCert" />
+      <module name="automation test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClientIDs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestClientIDs" />
       <module name="automation test" />
@@ -158,6 +206,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClientIDs.PropertySettingGet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClientIDs" />
+      <option name="METHOD_NAME" value="PropertySettingGet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClientIDs.PropertySettingGet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation test" />
       <option name="PACKAGE_NAME" value="" />
@@ -170,24 +230,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClientIDs.smoke" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClientIDs" />
-      <option name="METHOD_NAME" value="smoke" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestClientIDs" />
         <item itemvalue="TestNG.TestClientIDs.PropertySettingGet" />
         <item itemvalue="TestNG.TestClientIDs" />
-        <item itemvalue="TestNG.TestClientIDs.smoke" />
+        <item itemvalue="TestNG.TestClientIDs.PropertySettingGet (1)" />
+        <item itemvalue="Application.InstallCert" />
+        <item itemvalue="Application.TestClientIDs" />
       </list>
     </recent_temporary>
   </component>
@@ -203,32 +252,44 @@
       <updated>1552782751315</updated>
       <workItem from="1552782757421" duration="6616000" />
       <workItem from="1552828422914" duration="2880000" />
-      <workItem from="1552910977555" duration="3487000" />
+      <workItem from="1552910977555" duration="10029000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClientIDs_smoke - 2019.03.17 at 08h 56m 28s.xml">
-      <configuration name="TestClientIDs.smoke" configurationId="TestNG" />
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 22h 26m 19s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClientIDs_smoke - 2019.03.17 at 10h 11m 40s.xml">
-      <configuration name="TestClientIDs.smoke" configurationId="TestNG" />
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 22h 50m 00s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClientIDs - 2019.03.17 at 10h 12m 14s.xml">
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 22h 51m 16s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClientIDs_PropertySettingGet_(1) - 2019.03.18 at 22h 58m 10s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClientIDs - 2019.03.18 at 22h 58m 45s.xml">
       <configuration name="TestClientIDs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClientIDs - 2019.03.17 at 10h 12m 37s.xml">
-      <configuration name="TestClientIDs" configurationId="TestNG" />
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 22h 59m 39s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClientIDs - 2019.03.17 at 10h 14m 31s.xml">
-      <configuration name="TestClientIDs" configurationId="TestNG" />
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 23h 03m 17s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.17 at 10h 23m 01s.xml">
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 23h 04m 44s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 23h 05m 53s.xml">
+      <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClientIDs_PropertySettingGet - 2019.03.18 at 23h 10m 49s.xml">
       <configuration name="TestClientIDs.PropertySettingGet" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12983000" />
+    <option name="totallyTimeSpent" value="19525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -243,8 +304,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.78714055" visible="true" weight="0.32882166" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.78554314" visible="true" weight="0.32882166" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960065" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -252,14 +313,14 @@
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32936507" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.21285942" side_tool="true" visible="true" weight="0.32882166" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49520767" weight="0.32882166" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039935" side_tool="true" weight="0.39968154" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49361023" weight="0.32882166" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32947284" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32947284" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -303,10 +364,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="950" column="8" selection-start-line="950" selection-start-column="8" selection-end-line="950" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InstallCert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/response/ResponseOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestClientIDs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="62" column="89" selection-start-line="62" selection-start-column="89" selection-end-line="62" selection-end-column="89" />
+        <state relative-caret-position="391">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -367,7 +452,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Automation test</last-edited>
+          <last-edited>automation test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
