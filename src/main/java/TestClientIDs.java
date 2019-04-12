@@ -1,6 +1,5 @@
-import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.response.Header;
-import com.jayway.restassured.response.Headers;
+import io.restassured.RestAssured;
+import io.restassured.http.Header;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -15,7 +14,6 @@ import java.util.Formatter;
 public class TestClientIDs {
 
     public final String domain_prefix = "https://lips.lisqa7.sb.karmalab.net/LISService.svc";
-
 
 
     @Test
